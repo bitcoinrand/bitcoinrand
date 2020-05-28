@@ -1,0 +1,29 @@
+<div class="content"> <h4>Getting started</h4>
+<p>Use the following instructions to mine a block.</p>
+<p>Open your wallet, and make sure your wallet is connected with a node. <br>
+Your wallet is connected when you see the icon
+<img src="/img/learning-center/wallet_connections_bitcoin.png" title="Wallet connections Scrypt and SHA256">
+in the lower right corner of your wallet.</p>
+<p>The message “Syncing Headers (0,0%)” will disappear once you mine your first block.</p>
+<p>Close your wallet and create the file bitcoinrand.conf in the folder “%APPDATA%\bitcoinrand\”.</p>
+<p>Paste the following text into bitcoinrand.conf and save the file.</p>
+<code>rpcuser=<strong>rpc_bitcoinrand</strong></code><br>
+<code>rpcpassword=<strong>9fa668ef67fee1e9dac87197f</strong></code><br>
+<code>rpcallowip=127.0.0.1</code><br>
+<code>rpcport=<strong>19451</strong></code><br>
+<code>listen=1</code><br>
+<code>server=1</code><br><br>
+<p>Open your wallet.</p>
+<p>Create a .bat file named mine.bat in the same folder where you extracted bitcoinrand-cli.exe and paste the following text into mine.bat.</p>
+<code>@echo off<br>
+set SCRIPT_PATH=%cd%<br>
+cd %SCRIPT_PATH%<br>
+echo Press [CTRL+C] to stop mining.<br>
+:begin<br>
+&nbsp;bitcoinrand-cli.exe generate 1<br>
+goto begin</code>
+<br><br>
+<p>Save the file.</p>
+<p>Execute mine.bat to start mining your first block.</p>
+<p>It will take about +/- 30 minutes to mine your first block, depending on your computer hardware.</p>
+</div>
