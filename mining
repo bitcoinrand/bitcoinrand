@@ -1,3 +1,4 @@
+<div class="col-sm">
 <div class="content"> <h4>Getting started</h4>
 <p>Use the following instructions to mine a block.</p>
 <p>Open your wallet, and make sure your wallet is connected with a node. <br>
@@ -26,4 +27,5 @@ goto begin</code>
 <p>Save the file.</p>
 <p>Execute mine.bat to start mining your first block.</p>
 <p>It will take about +/- 30 minutes to mine your first block, depending on your computer hardware.</p>
+</div>
 </div>
