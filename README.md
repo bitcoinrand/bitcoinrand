@@ -1,5 +1,5 @@
 # Bitcoinrand Core integration/staging tree
-https://bitcoinrand.com/core
+https://bitcoinrand.com/
 
 What is Bitcoinrand?
 Bitcoinrand is an experimental digital currency that enables instant payments to anyone, anywhere in the world with South Africa as its mass adopted location. Bitcoinrand uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. Bitcoinrand Core is the name of open source software which enables the use of this currency.
